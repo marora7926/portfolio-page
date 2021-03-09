@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Mohit Arora</title>
-</head>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-<body>
     
+</head>
+<body>
+    <!-- Header and Inbuilt-navbar -->
     <header class="header">
+        <img src="/images/personal-icon.png" class="float-left" />
         <h1>Mohit ARORA</h1>
         <nav>
             <ul>
@@ -21,15 +24,19 @@
         </nav>
     </header>
     
+    <!-- Sub-header -->
     <div class="sub-heading">
         <h2>Cool subtitle here</h2>
     </div>
     
+    <!-- Main content of the protfolio-page -->
     <main>
-        <aside class="sidebar-a">
+        <!-- Sidebar #1: about-me-->
+        <aside class="sidebar-1">
         <h2>About Me</h2>
         </aside>
 
+        <!-- Portfolio-section #1: about-me -->
         <section class="row justify-right">
             <div class="card-column"> 
                 <figure class="about-me-text">
@@ -44,28 +51,43 @@
             </div>
         </section>
 
-        <aside class="sidebar-w">
-            <h2>Work</h2>
+        <!-- Sidebar #2: Skills and projects-->
+        <aside class="sidebar-2">
+            <h2>Skills</h2>
         </aside>
 
+        <!-- Portfolio-section #2: Skills and Projects -->
+        <!-- sub-section 2.1: Web development skills -->
         <section class="row justify-right">
             <div>
                 <figure class="work-big-card">
-                    <h3 class="card-header">Surf Report</h3>
+                    <h3 class="card-header">Web Development Skills</h3>
                     <div class="card-body">
-                    <p> 1. Lorem ipsum dolor sit amet</p>
+                        <div>
+                            <p>
+                                Browser Based Technologies ()
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                Deployment/Command-Line Fundamentals ()
+                            </p>
+                        </div>
                     </div>
+                    
                     <div class="card-image">
-                        <img src="./assets/images/skills-icon.jpg" class="float-left" />
+                        <img src="/images/skills-icon.jpg" class="float-left" />
                     </div>
                 </figure>    
             </div>
             
+            <!-- sub-section 2.2: Projects -->
             <div>
                 <figure class="work-small-card">
-                    <h3 class="card-header">Led Wall</h3>
+                    <h3 class="card-header">Projects</h3>
                     <div class="card-body">
-                    <p>2a. Lorem ipsum dolor sit amet</p>
+                    <p>ABC, XYZ ()
+                    </p>
                     </div>
                     <div class="card-icon">
                         <img src="./assets/images/skills-icon.jpg" class="float-left" />
@@ -73,11 +95,12 @@
                 </figure>    
             </div>
             
+             <!-- sub-section 2.3: Achievements -->
             <div>
                 <figure class="work-small-card">
-                    <h3 class="card-header">Calculator</h3>
+                    <h3 class="card-header">Achievements</h3>
                     <div class="card-body">
-                    <p>2b. Lorem ipsum dolor sit amet</p>
+                    <p>Academic Grade: A</p>
                     </div>
                     <div class="card-icon">
                         <img src="./assets/images/skills-icon.jpg" class="float-left" />
@@ -85,7 +108,7 @@
                 </figure>    
             </div>
              
-            <div>
+            <!-- <div>
                 <figure class="work-small-card">
                     <h3 class="card-header">Pastel Puzzels</h3>
                     <div class="card-body">
@@ -106,19 +129,22 @@
                     <div class="card-icon">
                         <img src="./assets/images/skills-icon.jpg" class="float-left" />
                     </div>
-                </figure>    
-            </div>
+                </figure>     -->
+            <!-- </div> -->
         </section>
     </main>
 
-    <aside class="sidebar-f">
-        <h1>Contact Me</h1>
+    <!-- Footer -->
+    <!-- Sidebar #3: Footer -->
+    <aside class="sidebar-3">
+        <h2>Contact Me</h2>
     </aside>
     
+    <!-- Portfolio-section #3: Contact-me -->
     <div class="footer">
         <nav>
             <ul>
-            <li><a href="#abc">ABC</a></li>
+            <li><a href="#abc">+61-02-XXXX-XXXX</a></li>
             <li><a href="#email">mohit.arora@sydney.edu.au</a></li>
             <li><a href="#github">GitHub</a></li>
             <li><a href="#twitter">Twitter</a></li>
