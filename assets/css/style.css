@@ -8,8 +8,9 @@ body {
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     background-color: #c9ccc5;
     margin: 0;
+    background-image: url(..\image\background_image_main.jpg);
 }
-  
+
 header {
     display: flex;
     justify-content: space-between;
@@ -59,6 +60,11 @@ nav a {
     color: #1a2e46;
 }
 
+nav a:hover {
+    background-color: #e2b8b0;
+    box-shadow: inset 0px 0px 8px #e64626, 0 0 15px #e64626;
+  }
+
 .sidebar-1 {
     flex: 1;
     text-align: right;
@@ -67,7 +73,7 @@ nav a {
     float: left;
     width: 250px;
     height: 200px;
-    background-color: #62a0af;
+    background-color: #e78470;
 }
 
 .sidebar-1 h2 {
@@ -80,7 +86,7 @@ nav a {
 .about-me-icon {
     width: 80%;
     padding: 25px;
-    height: 80%;
+    height: 85%;
 }
 
 .about-me-text p {
@@ -97,7 +103,7 @@ nav a {
     float: left;
     width: 250px;
     height: 500px;
-    background-color: #62a0af;
+    background-color: #e78470;
 }
 
 .sidebar-2 h2 {
@@ -108,9 +114,9 @@ nav a {
 }
 
 .skills-projects-icon {
-    width: 50%;
+    width: 55%;
     padding: 15px;
-    height: 40%;
+    height: 25%;
 }
 
 .sidebar-3 {
@@ -121,8 +127,8 @@ nav a {
     clear: both;
     float: left;
     width: 250px;
-    height: 100px;
-    background-color: #62a0af;
+    height: 200px;
+    background-color: #e78470;
 }
 
 .sidebar-3 h2 {
@@ -132,13 +138,13 @@ nav a {
     font-weight: bold;
 }
 
-.contact-us-icon {
+.contact-me-icon {
     width: 50%;
     padding: 15px;
-    height: 40%;
+    height: 70%;
 }
 
-/* .footer {
+.footer {
     height: 100px;
 }
 
@@ -159,11 +165,16 @@ nav a {
     display: inline-block;
 }
 
-.footer nav a{
-    font-size: 25px;
+.nav-foot a{
+    font-size: 20px;
     font-style: italic;
     text-decoration: underline;
     text-decoration-style: double;
     text-align: center;
     color: #0e0e0e;
-} */
+}
+
+.nav-foot img {
+    max-width: 100%;
+    height: auto;
+}
