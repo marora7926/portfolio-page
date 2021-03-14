@@ -64,8 +64,8 @@ nav a:hover {
 }
 
 .section-code{
-    display: row;
     border:solid;
+    border-radius: 15px;
     margin: 15px;
 }
 
@@ -77,8 +77,8 @@ nav a:hover {
 }
 
 .section-code:hover {
-    background-color: #e2b8b0;
-    box-shadow: inset 0px 0px 8px #e64626, 0 0 15px #e64626;
+    background-color: #e0cdc8;
+    box-shadow: inset 0px 0px 8px #220895, 0 0 15px #c01505;
 }
 
 .passport-image{
@@ -113,25 +113,29 @@ nav a:hover {
 .projects-completed li{
     font-size: 1.5em;
     list-style-type: square;
-    margin: 13px 10px 13px 10px;
+    margin-top: 10px; 
+    margin-left: 50px;
+    margin-bottom: 10px;
     line-height: 1.2;
     color: #000000;  
 }
 
 .footer{
-margin-top: auto;
-background: #e78470;
+    margin-top: auto;
+    background: #e78470;
 }
 
 .footer_phone_email{
     margin: 0;
     padding: 20px;
-    border: 0;
-    outline: 0;
-    background: 0 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    -webkit-text-size-adjust: 100%;
+}
+
+.footer_phone_email li{
+   font-size: 1.25em;
+   list-style-type: circle;
+   margin-top: 5px; 
+   margin-left: 15px;
+   margin-bottom: 5px;
 }
 
 .footer_sub {
