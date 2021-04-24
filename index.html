@@ -4,7 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <title>Mohit Arora</title>
+    
+    <!-- bootstrap style sheet -->
+	<link
+	rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	/>
+	  
+	<!-- font awesome style sheet for icons-->
+	<link
+	rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous"
+	/>
+    
+    <!-- local reset-style sheet -->
     <link rel="stylesheet" href="assets/css/reset.css" />
+
+    <!-- local style sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
@@ -18,13 +36,47 @@
     </header>
 
     <!-- Navbar -->
-    <nav>
+    <!-- <nav>
         <a href="#about-me">About Me</a>
-        <a href="#skills_gained">Skills</a>
-        <a href="#project_undertaken">Projects</a>
-        <a href="#contact-me">Contact Me</a>
+        <a href="">Skills</a>
+        <a href="">Projects</a>
+        <a href="">Contact Me</a>
         <a href=".\assets\documents\Resume_AroraM_December-20.pdf">Resume</a>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#skills_gained">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#project_undertaken">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact-me">Contact Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resume
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_coder_Apr21.pdf">Full Stack Coder</a></li>
+                  <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_acaedemic_profile_Dec20.pdf">Acaedemic Profile</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     
     <!-- Main content of the portfolio-page -->
          <div id="about-me" class="section-code">
@@ -33,13 +85,14 @@
             <img class="passport-image" alt="My Image" src=".\assets\image\my_image.jpg">
                 
                 <div class=card-body>
-                    <p>My name is Mohit. I am born in New Delhi, national capital of an amazing country India. I have a graduate degree in Physiotherapy 
+                    <p>My name is Mohit. I am born in New Delhi, national capital of an amazing country, India. I have a graduate degree in Physiotherapy 
                         and Diploma in Clinical Research from India. In 2013, I received the prestigious Prime Minister Australia Asia Post Graduate Research Award 
                         to pursue Ph.D. in Medicine at the University of Sydney, Australia.</p><br>
                     <p>Currently, I have enrolled in the 24-weeks <i>"full stack flex coding bootcamp course"</i> at the University of Sydney to gain knowledge and develop skills 
                         to build dynamic end-to-end web applications and become a full stack web developer. 
-                        As a Postdoctoral Research Fellow at the University of Sydney, I have been utilising these new knowledge and skills which I have showcase in my skills and projects tab. In addition, I will continue to ultilise 
-                        these skills in my current jole role where I will be developing a research project website and creating a digital solution for a useful educational resourse for my clients.</p><br>
+                        As a Postdoctoral Research Fellow at the University of Sydney, I have been utilising this new knowledge and skillset in developing research project websites 
+                        and disseminating the research findings to a broad range of stakeholder. In addition, I will continue to ultilise these skills in my current jole role where 
+                        I will be developing a digital solution for useful health-related educational resourses for my clients.</p><br>
                     <p>I like drawing, eating spicy foods, learning international languages, cycling and running.</p><br>
                 </div>
         </div>    
@@ -64,17 +117,18 @@
             <hr>
             <div class="projects-completed">
                 <p><b>Project completed to date</b></p>
-                <p><em>A. Solo project/s</em></p>
+                <p><em>A. Solo projects</em></p>
                     <ul>
                         <li><a href=" https://marora7926.github.io/code-refactor/" target="_blank">Code-refactor to HORISEON Accessibility Standards</a></li>
                         <li><a href="https://marora7926.github.io/portfolio-page/" target="_blank">This website</a></li>
-                        <li><a>Password-generator using JavaScript: <em><u>Ongoing</em></u></a></li>
-                        <li><a>Code Quiz using Web APIs: <em><u>Coming Soon</em></u></a></li>
+                        <li><a href="https://marora7926.github.io/password-generator/" target="_blank">Password-generator</a></li>
+                        <li><a href="https://marora7926.github.io/code-quiz/" target="_blank">Code Quiz</a></li>
+                        <li><a href="https://marora7926.github.io/work-day-scheduler/" target="_blank">Work-day Scheduler</a></li>
+                        <li><a href="https://marora7926.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a></li>
                     </ul>
-                <p><em>B. Group project/s</em></p>
+                <p><em>B. Class-room group projects</em></p>
                 <ul>
-                    <li><a href="https://marora7926.github.io/landing-page/" target="_blank">Landing Page</a></li>
-                    <li><a href="https://marora7926.github.io/css-snippet-sheet/" target="_blank">Create CSS Snippet Cheat Sheet</a></li>
+                    <li><a href="https://marora7926.github.io/css-snippet-sheet/" target="_blank">CSS Snippet Cheat Sheet</a></li>
                     <li><a href="https://marora7926.github.io/game-r-p-s/" target="_blank">Build Game: Rock, Paper, Scissors Game</a></li>
                 </ul>
             </div>        
@@ -89,19 +143,12 @@
     
             <div class="footer_phone_email">
                 <ul>
-                    <li>call me: +61-02-0000-0000</li>
-                    <li>email me: myname@mydomain.com</li>
-                    <li>view my Github pages (coming soon)</li>
+                    <i class="fas fa-phone-volume"> +61-2-9926-4772</i>
+                    <a href="mailto:mohitcoder2021@gmail.com" class="fas fa-at"></a>
+                    <a href="https://github.com/marora7926" class="fab fa-github"></a>
+                    <a href="https://twitter.com/marora_ind" class="fab fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/mohit-arora-098750122/" class="fab fa-linkedin-in"></a>
                 </ul>
-            </div>
-            
-            <div class="footer_main_social">
-                <a href="https://twitter.com/marora_ind">
-                    <img src=".\assets\image\footer-twitter-icon.png" alt="Twitter">
-                </a>
-                <a href="https://www.linkedin.com/in/mohit-arora-098750122/">
-                    <img src=".\assets\image\footer-linkedin-icon.png" alt="LinkedIn">
-                </a>
             </div>
         </div>
     </footer>

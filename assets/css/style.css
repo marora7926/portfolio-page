@@ -23,6 +23,8 @@ body {
 /*this is complete header family*/
 header {
     display: flex;
+    /* position: fixed;
+    width: 100%; */
     justify-content: space-between;
     padding: 20px;
     background-color: var(--color-darkOrange);
@@ -59,11 +61,13 @@ header {
 }
 
 /*this is complete navigator family*/
-nav {
+/* nav {
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: flex-end;
     background-color: var(--color-lightOrange);
-}
+} */
 
 nav a {
     font-size: 1.5em;
@@ -155,14 +159,11 @@ nav a:hover {
 .footer_phone_email{
     margin: 0;
     padding: 20px;
-}
-
-.footer_phone_email li{
-   font-size: 1.25em;
-   list-style-type: circle;
-   margin-top: 5px; 
-   margin-left: 15px;
-   margin-bottom: 5px;
+    font-size: 1.25em;
+    list-style-type:none;
+    margin-top: 5px; 
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 
 /* Sub-footer section properties --- share the similar properties as above sections */
