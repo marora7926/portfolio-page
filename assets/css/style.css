@@ -60,14 +60,9 @@ header {
     color: #000000;
 }
 
-/*this is complete navigator family*/
-/* nav {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: flex-end;
-    background-color: var(--color-lightOrange);
-} */
+.bg-light {
+    background-color: var(--color-lightOrange) !important;
+}
 
 nav a {
     font-size: 1.5em;
@@ -84,6 +79,10 @@ nav a:hover {
     box-shadow: inset 0px 0px 8px var(--color-darkOrange), 0 0 15px var(--color-darkOrange);
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    padding: 20px
+}
+
 /*this is complete main section family*/
 .section-code{
     display: flex;
@@ -92,14 +91,12 @@ nav a:hover {
     margin: 1.5em;
 }
 
-.header-card {
-    padding: 0.5em;
+.card {
+    justify-content:center
 }
 
-.header-card h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: var(--color-blue);
+.header-card {
+    padding: 0.5em;
 }
 
 .section-code:hover {
@@ -159,7 +156,7 @@ nav a:hover {
 .footer_phone_email{
     margin: 0;
     padding: 20px;
-    font-size: 1.25em;
+    font-size: 2em;
     list-style-type:none;
     margin-top: 5px; 
     margin-left: 15px;
@@ -175,6 +172,15 @@ nav a:hover {
 
 .container-padding {
     width: calc(100% - 200px);
+}
+
+.fas .fa-phone-volume 
+.fas .fa-at 
+.fab .fa-github 
+.fab .fa-twitter 
+.fab .fa-linkedin-in {
+    text-decoration: none;
+    
 }
 
 .footer_sub_content {

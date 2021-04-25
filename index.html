@@ -5,11 +5,17 @@
     <meta charset="UTF-8" />
     <title>Mohit Arora</title>
     
-    <!-- bootstrap style sheet -->
+    <!-- bootstrap style sheet version 4-->
 	<link
 	rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	/>
+
+     <!-- Bootstrap CSS version 5 -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+     crossorigin="anonymous">
 	  
 	<!-- font awesome style sheet for icons-->
 	<link
@@ -31,119 +37,101 @@
     <!-- Header -->
     <header class="header">
         <h1>Mohit ARORA</h1>
-        <img class="personal-logo" alt="Logo" src=".\assets\image\personal-logo.png">
+        <img class="personal-logo" alt="Logo" src=".\assets\images\personal-logo.png">
         <h2>Full-stack Scientific Designer</h2>
     </header>
 
-    <!-- Navbar -->
-    <!-- <nav>
-        <a href="#about-me">About Me</a>
-        <a href="">Skills</a>
-        <a href="">Projects</a>
-        <a href="">Contact Me</a>
-        <a href=".\assets\documents\Resume_AroraM_December-20.pdf">Resume</a>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#skills_gained">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#project_undertaken">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contact-me">Contact Me</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Resume
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_coder_Apr21.pdf">Full Stack Coder</a></li>
-                  <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_acaedemic_profile_Dec20.pdf">Acaedemic Profile</a></li>
-                </ul>
-              </li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about-me">About Me</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#skills_gained">Skills</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#project_undertaken">Projects</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#contact-me">Contact Me</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resume
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_coder_Apr21.pdf">Full Stack Coder</a></li>
+                        <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_acaedemic_profile_Dec20.pdf">Acaedemic Profile</a></li>
+                    </ul>
+                </li>
             </ul>
-          </div>
         </div>
-      </nav>
+    </nav><br>
     
-    <!-- Main content of the portfolio-page -->
-         <div id="about-me" class="section-code">
-            <h1 class="header-card">About Me</h1>
+    <div id="about-me" class="section-code">
+            <h1 class="header-card">About me</h1>
             <hr>
-            <img class="passport-image" alt="My Image" src=".\assets\image\my_image.jpg">
+            <img class="passport-image" alt="my-image" src=".\assets\images\my_image.jpg">
                 
                 <div class=card-body>
-                    <p>My name is Mohit. I am born in New Delhi, national capital of an amazing country, India. I have a graduate degree in Physiotherapy 
+                    <p>My name is Mohit, born in New Delhi, national capital of an amazing country, India. I have a graduate degree in Physiotherapy 
                         and Diploma in Clinical Research from India. In 2013, I received the prestigious Prime Minister Australia Asia Post Graduate Research Award 
                         to pursue Ph.D. in Medicine at the University of Sydney, Australia.</p><br>
-                    <p>Currently, I have enrolled in the 24-weeks <i>"full stack flex coding bootcamp course"</i> at the University of Sydney to gain knowledge and develop skills 
+                    <p>I am based in Sydney, NSW and have enrolled in the 24-weeks <i>"full stack flex coding bootcamp course"</i> at the University of Sydney to gain knowledge and develop skills 
                         to build dynamic end-to-end web applications and become a full stack web developer. 
-                        As a Postdoctoral Research Fellow at the University of Sydney, I have been utilising this new knowledge and skillset in developing research project websites 
-                        and disseminating the research findings to a broad range of stakeholder. In addition, I will continue to ultilise these skills in my current jole role where 
-                        I will be developing a digital solution for useful health-related educational resourses for my clients.</p><br>
+                        As a Postdoctoral Research Fellow at the University of Sydney, I have been utilising this new knowledge and skills in developing research project websites 
+                        and disseminating the research findings to a broad range of stakeholders. In addition, I will continue to ultilise these skills in my current jole role where 
+                        I will be developing a digital solution for useful health-related educational resourses for people with neurological disorders.</p><br>
                     <p>I like drawing, eating spicy foods, learning international languages, cycling and running.</p><br>
+                    <p class="card-text"><small class="text-muted"><i>Last updated 26-April-2021</i></small></p>
                 </div>
-        </div>    
+        </div>
         
         <div id="skills_gained" class="section-code">
             <h1 class="header-card">Skills</h1>
             <hr>
-            <div class="skill-sets">
+            <!-- <div class="skill-sets">
                 <p><b>Web development skills</b></p>
                     <p><em>A. Browser Based Technologies</em></p>
                     <p>Three core languages that make up the World Wide Web: HTML, CSS and JavaScript.</p>
-                    <p><em>B. Deployment/Command-Line Fundamentals</em></p>
-                    <p>Some of the skills that I have attained to transform codes to a live environment or production environment: <em>Git, Gitlab and Github Pages</em>.</p><br>
+                    <p><em>B. Client-side and servers-side programming skills</em></p>
+                    <p>XX: Client-side APIs, Server-side API, jQuery and Node js.</p>
+                    <p><em>C. Deployment/Command-Line Fundamentals</em></p>
+                    <p>Some of the skills that I have attained to transform codes to a live environment or production environment: Git, Gitlab and Github Pages.</p><br>
                     <p><b>Other skills</b></p>
                     <p><em>Microsoft Office</em></p>
                     <p><em>Statistical Software Languages: STATA, SAS and SPSS</em></p>            
-            </div>        
+            </div>         -->
         </div>
 
         <div id="project_undertaken" class="section-code">
-            <h1 class="header-card">Projects</h1>
-            <hr>
+            <h1 class="header-card">Top three projects</h1>
+            <!-- <hr>
             <div class="projects-completed">
-                <p><b>Project completed to date</b></p>
-                <p><em>A. Solo projects</em></p>
-                    <ul>
-                        <li><a href=" https://marora7926.github.io/code-refactor/" target="_blank">Code-refactor to HORISEON Accessibility Standards</a></li>
-                        <li><a href="https://marora7926.github.io/portfolio-page/" target="_blank">This website</a></li>
-                        <li><a href="https://marora7926.github.io/password-generator/" target="_blank">Password-generator</a></li>
-                        <li><a href="https://marora7926.github.io/code-quiz/" target="_blank">Code Quiz</a></li>
-                        <li><a href="https://marora7926.github.io/work-day-scheduler/" target="_blank">Work-day Scheduler</a></li>
-                        <li><a href="https://marora7926.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a></li>
-                    </ul>
-                <p><em>B. Class-room group projects</em></p>
                 <ul>
-                    <li><a href="https://marora7926.github.io/css-snippet-sheet/" target="_blank">CSS Snippet Cheat Sheet</a></li>
-                    <li><a href="https://marora7926.github.io/game-r-p-s/" target="_blank">Build Game: Rock, Paper, Scissors Game</a></li>
+                    <li><a href="https://github.com/marora7926/bootcamp-hub" target="_blank">Bootcamp Hub</a></li>
+                    <li><a href="https://marora7926.github.io/code-quiz/" target="_blank">Code Quiz</a></li>
+                    <li><a href="https://marora7926.github.io/work-day-scheduler/" target="_blank">Work-day Scheduler</a></li>
                 </ul>
-            </div>        
+            </div> -->
+        </div>
+
+        <div id="project_undertaken" class="section-code">
+            <h1 class="header-card">Other projects</h1>
+            <!-- <hr>
+            <div class="projects-completed">
+                <ul>
+                    <li><a href=" https://marora7926.github.io/code-refactor/" target="_blank">Code-refactor to HORISEON Accessibility Standards</a></li>
+                    <li><a href="https://marora7926.github.io/portfolio-page/" target="_blank">This website</a></li>
+                    <li><a href="https://marora7926.github.io/password-generator/" target="_blank">Password-generator</a></li>
+                    <li><a href="https://marora7926.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a></li>
+                </ul>
+            </div>         -->
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div id="contact-me" class="section-code">
+        <div id="contact-me" class="section-code">    
             <h1 class="header-card">Contact me</h1>
             <hr>
-    
             <div class="footer_phone_email">
                 <ul>
-                    <i class="fas fa-phone-volume"> +61-2-9926-4772</i>
+                    <a class="fas fa-phone-volume" title="+61-2-9926-4772"></a>
                     <a href="mailto:mohitcoder2021@gmail.com" class="fas fa-at"></a>
                     <a href="https://github.com/marora7926" class="fab fa-github"></a>
                     <a href="https://twitter.com/marora_ind" class="fab fa-twitter"></a>
@@ -154,16 +142,31 @@
     </footer>
     
     <!-- post footer section -->
-            <div class="footer_sub">
-                <div class="footer_sub_content container-padding">
-                <p>© 2021 Mohit Arora | ABN: 00 000 000 000</p>
-                </div>
+    <div class="footer_sub">
+        <div class="footer_sub_content container-padding">
+            <p>© 2021 Mohit Arora | ABN: 00 000 000 000</p>
+        </div>
                 
-                <div class="footer_sub_links">
-                    <a href=".\assets\documents\Privacy policy.pdf">Privacy</a>
-                    <a href=".\assets\documents\Disclaimer.pdf">Disclaimer</a>
-                </div>
-            </div>
+        <div class="footer_sub_links">
+            <a href=".\assets\documents\Privacy policy.pdf">Privacy</a>
+            <a href=".\assets\documents\Disclaimer.pdf">Disclaimer</a>
+        </div>
+    </div>
+    
+    <!-- Bootstrap js -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" 
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" 
+        crossorigin="anonymous">
+    </script>
 
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" 
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" 
+        crossorigin="anonymous">
+    </script>
+
+    <!-- local js file -->
+    <script src="assets/js/script.js"></script> 
 </body>
 </html>
