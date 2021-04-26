@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 /*this is complete main section family*/
-.section-code{
+.section-code {
     display: flex;
     border: solid;
     border-radius: 15px;
@@ -127,11 +127,53 @@ nav a:hover {
     font-size: 30px;
 }
 
+/* Container for skill bars */
+.container {
+  width: 90%;
+  background-color: var(--color-white);
+}
+
+.skills {
+  text-align: right;
+  color: rgb(5, 5, 5);
+}
+
+.html {
+    width: 95%; 
+    background-color: var(--color-darkerOrange);
+}
+
+.css {
+    width: 85%; 
+    background-color: var(--color-darkOrange);
+}
+
+.bs {
+    width: 80%; 
+    background-color: var(--color-darkOrange);
+}
+
+.js {
+    width: 65%; 
+    background-color:var(--color-lightOrange);
+} 
+
+.node {
+    width: 60%; 
+    background-color: var(--color-lightOrange);
+}
+
 .projects-completed > div {
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+}
+
+.top-projects-completed li{
+    font-size: 1.5em;
+    line-height: 2.5;
+    color: var(--color-black);  
 }
 
 .projects-completed li{
@@ -144,6 +186,58 @@ nav a:hover {
     color: var(--color-black);  
 }
 
+#myBtn {
+    border: 2px solid var(--color-blue);
+    border-radius: 15px;
+    background-color:var(--color-lightOrange);
+    padding: 5px;
+    width: 250px;
+    height: 60px;
+    margin: 5px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* defining modals */
+/* The Modal (background) */
+.modal {
+    display:none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: var(--color-lighterOrange);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 3px solid var(--color-darkOrange);
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+  
+/* The Close Button */
+.close {
+    color: rgb(10, 10, 10);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* modal definition ends here */
+
 /* the application will increase in size when I hover on it */
 .projects-completed li:hover {
     font-size: 1.75em;
@@ -152,11 +246,18 @@ nav a:hover {
     left:-2px;
 }
 
+.top-projects-completed li:hover {
+    font-size: 1.6em;
+    transition: all 0.5s ease-in-out;
+    top:-2px;
+    left:-2px;
+}
+
 /* Contact me section properties */
-.footer_phone_email{
+.page_contact{
     margin: 0;
-    padding: 20px;
-    font-size: 2em;
+    padding: 0px;
+    font-size: 2.5em;
     list-style-type:none;
     margin-top: 5px; 
     margin-left: 15px;
@@ -174,13 +275,23 @@ nav a:hover {
     width: calc(100% - 200px);
 }
 
-.fas .fa-phone-volume 
-.fas .fa-at 
-.fab .fa-github 
-.fab .fa-twitter 
-.fab .fa-linkedin-in {
-    text-decoration: none;
-    
+.flex-container {
+    list-style: none;
+    display: flex;
+}
+  
+.flex-start { 
+    justify-content: flex-start; 
+}
+
+.flex-item {
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: center;
 }
 
 .footer_sub_content {

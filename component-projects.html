@@ -17,14 +17,6 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
         crossorigin="anonymous">
         
-        <!-- font awesome style sheet for icons-->
-        <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossorigin="anonymous"
-        />
-        
         <!-- local reset-style sheet -->
         <link rel="stylesheet" href="assets/css/reset.css" />
 
@@ -46,30 +38,50 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
             <div class="container-fluid">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="./component-skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="btn-block nav-link active" aria-current="page" href="./index.html">About Me</a></li>
+                    <li class="nav-item"><a class="btn-block nav-link active" href="./component-skills.html">Skills</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#project_undertaken">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="./component-contact-me.html">Contact Me</a></li>
+                    <li class="nav-item"><a class="btn-block nav-link active" href="./component-contact-me.html">Contact Me</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resume
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_coder_Apr21.pdf">Full Stack Coder</a></li>
-                            <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_acaedemic_profile_Dec20.pdf">Acaedemic Profile</a></li>
+                            <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_coder_Apr21.pdf" target="_blank">Resume - Full Stack Coder</a></li>
+                            <li><a class="dropdown-item" href=".\assets\documents\Resume_Arora_acaedemic_profile_Dec20.pdf" target="_blank">Resume - Acaedemic Profile</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </nav><br>
         <div id="project_undertaken" class="section-code">
-            <h1 class="header-card">Top three projects</h1>
+            <h1 class="header-card">Collaborative project</h1>
             <hr>
-            <div class="projects-completed">
-                <ul>
-                    <li><a href="https://github.com/marora7926/bootcamp-hub" target="_blank">Bootcamp Hub</a></li>
-                    <li><a href="https://marora7926.github.io/code-quiz/" target="_blank">Code Quiz</a></li>
-                    <li><a href="https://marora7926.github.io/work-day-scheduler/" target="_blank">Work-day Scheduler</a></li>
+            <div class="top-projects-completed">
+                <div class="flex-container flex-start">
+                    <div class="flex-item">
+                        <button id="myBtn">Bootcamp-Hub</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Bootcamp-Hub</p><hr>
+                                <a href="https://marora7926.github.io/bootcamp-hub/" target="_blank">Deployed link</a>
+                                <a href="https://github.com/marora7926/bootcamp-hub" target="_blank">Repo link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project_undertaken" class="section-code">
+            <h1 class="header-card">Top solo-projects</h1>
+            <hr>
+            <div class="top-projects-completed">
+                <ul class="flex-container flex-start">               
+                    <li class="flex-item" ><a href="https://marora7926.github.io/code-quiz/" target="_blank">Code-Quiz</a></li>
+                    <li class="flex-item" ><a  href="https://marora7926.github.io/work-day-scheduler/" target="_blank">Day-Scheduler</a></li>
+                    <li class="flex-item" ><a  href="https://github.com/marora7926" target="_blank">Access Repos</a></li>
                 </ul>
             </div>
         </div>
@@ -94,8 +106,8 @@
             </div>
                     
             <div class="footer_sub_links">
-                <a href=".\assets\documents\Privacy policy.pdf">Privacy</a>
-                <a href=".\assets\documents\Disclaimer.pdf">Disclaimer</a>
+                <a href=".\assets\documents\Privacy policy.pdf" target="_blank">Privacy</a>
+                <a href=".\assets\documents\Disclaimer.pdf" target="_blank">Disclaimer</a>
             </div>
         </div>
         
