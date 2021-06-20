@@ -144,21 +144,41 @@ nav a:hover {
 }
 
 .css {
-    width: 85%; 
+    width: 90%; 
     background-color: var(--color-darkOrange);
 }
 
 .bs {
-    width: 80%; 
+    width: 85%; 
     background-color: var(--color-darkOrange);
 }
 
 .js {
-    width: 65%; 
+    width: 80%; 
     background-color:var(--color-lightOrange);
-} 
+}
 
 .node {
+    width: 80%; 
+    background-color:var(--color-lightOrange);
+}
+
+.api {
+    width: 75%; 
+    background-color: var(--color-lightOrange);
+}
+
+.express {
+    width: 70%; 
+    background-color: var(--color-lightOrange);
+}
+
+.mysql {
+    width: 70%; 
+    background-color: var(--color-lightOrange);
+}
+
+.mcv {
     width: 60%; 
     background-color: var(--color-lightOrange);
 }
